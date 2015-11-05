@@ -5,7 +5,7 @@
 // @downloadURL  http://bit.do/ZeachCobblerJS2
 // @contributer  See full list at https://github.com/RealDebugMonkey/ZeachCobbler#contributors-and-used-code
 // @supportURL   https://github.com/RealDebugMonkey/ZeachCobbler/issues
-// @version      0.30.0
+// @version      0.30.1
 // @description  Agario powerups
 // @author       DebugMonkey
 // @match        http://agar.io
@@ -15,6 +15,7 @@
 // @icon128      https://raw.github.com/RealDebugMonkey/ZeachCobbler/master/icons/zeachcobbler_icon128.png
 // @changes          0.30.0 - Added GitHub, Contrib and Zeach Cobbler skins
 //                     - Use " ' " before nick to use your GitHub avatar 
+//                   1 - Temporarily fixed the minimap screen-freezing issue
 //                   0.29.0 - Added option to edit keyboard binds
 //                     - Now you can edit keys in options
 //                   1 - Added Contributors tab, bug fixes
@@ -1028,7 +1029,7 @@ jQuery("#connecting").after('<canvas id="canvas" width="800" height="600"></canv
 
 
             drawSplitGuide(ctx, getSelectedBlob());
-            drawMiniMap();
+            //drawMiniMap();
         }
     }
 
